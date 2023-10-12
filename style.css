@@ -1,0 +1,58 @@
+.hobby:hover::after {
+    content: " <--мои хобби"
+    }
+.Отправить:active {
+    color:slateblue;
+    
+}   
+.Отправить {
+    background-color: rgba(150, 6, 245, 0.664);
+}
+.Отправить:hover {
+color: rgba(150, 17, 159, 0.664);
+}
+.Отправить {
+    border-color: black;
+    background-color:rgba(255, 254, 254, 0.696)
+    
+}
+.Отправить:hover {
+background-color:rgb(0, 255, 76);
+transition: 1s;
+}
+.hobby:hover::after {
+    color: crimson;
+}
+.Отправить {
+    color:darkred;
+}
+.name:hover::after {
+    content: " <-- A что мы тут ищем? здесь уже нечего добавить"
+} 
+.name:hover {
+    color:green;
+}
+.city:hover::after {
+ content: " <--Это ваще лучшая страна со своим государством"
+}
+.book:hover::after {
+    content: " Могу посоветовать книгу интересную, а сам интересуюсь серией книг Assasin's Creed"
+}
+.book:hover {
+    color:green;
+}
+.IT:hover::after {
+    content: " Ну как вы знаете сейчас я занимаюсь фронтом"
+}
+.IT:hover {
+    color: greenyellow;
+}
+.lang:hover::after {
+    content: " Хоть я и ленился учить некоторые языки, но я смог"
+}
+.lang:hover {
+    color: peru;
+}
+a {
+    display: block;
+}
